@@ -1,0 +1,48 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 218, 218);
+  width: 300px;
+  margin-left: 20px;
+}
+
+h1, label{
+  margin-top: 20px;
+  margin-left: 30px;
+  color: brown;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 30px;
+  margin: 20px;
+}
+
+select{
+  width: 200px;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+button{
+  margin: 30px;
+  width: 100px;
+  margin-left: 80px;
+  background-color: brown;
+  color: white;
+  font-size: 15px;
+  border-color: brown;
+  outline: none;
+}
+
+#main{
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
