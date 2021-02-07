@@ -17,6 +17,11 @@ input {
   width: 200px;
 }
 
+.fa-sync-alt {
+  color: #fff;
+  margin-left: 45px;
+}
+
 label {
   color: #fff;
   font-size: 25px;
@@ -31,10 +36,14 @@ h1 {
   font-size: 40px;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .main {
   width: 500px;
   height: 500px;
-  background-color: #9ffffa;
+  background-color: #a7c0bf;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,5 +67,17 @@ h1 {
   margin: 25px;
   -webkit-box-shadow: 1px 1px 5px black;
           box-shadow: 1px 1px 5px black;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: aliceblue;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  margin-top: 5px;
 }
 /*# sourceMappingURL=style.css.map */

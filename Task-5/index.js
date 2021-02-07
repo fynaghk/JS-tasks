@@ -1,0 +1,1 @@
+const clear = document.querySelector(".fa-sync-alt");
