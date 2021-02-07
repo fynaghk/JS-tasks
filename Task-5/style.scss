@@ -3,11 +3,52 @@
   margin: 0px;
 }
 
+.input{
+  height: 100px;
+  background-color: rgb(20, 81, 105);
+  width: 500px;
+  padding-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input{
+  outline: none;
+  width: 200px;
+}
+
+label{
+  color: #fff;
+  font-size: 25px;
+  padding: 25px;
+  margin: 20px;
+  margin-left: -25px;
+}
+
+h1{
+  color: rgb(20, 81, 105);
+  font-weight:900;
+  font-size: 40px;
+}
+
 .main{
   width: 500px;
-  background-color: rgb(180, 241, 180);
+  height: 500px;
+  background-color: rgb(159, 255, 250);
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.list{
+  background-color: #fff;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid rgb(20, 81, 105);
+  width: 450px;
+  margin: 25px;
+  box-shadow: 1px 1px 5px black;
 }
