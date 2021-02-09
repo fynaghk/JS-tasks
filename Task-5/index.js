@@ -11,6 +11,7 @@ function addMission(e){
   const checkBtn = document.createElement("button");
   const deleteBtn = document.createElement("button");
 
+  const myDiv = document.createElement("div");
   checkBtn.innerHTML = '<i class="fas fa-check"></i>';
   deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
 
@@ -18,20 +19,20 @@ function addMission(e){
     newLi.textContent = input.value;
     input.value = "";
 
-    newLi.appendChild(checkBtn);
     notCompleted.appendChild(newLi)
-    newLi.appendChild(deleteBtn)
+    myDiv.appendChild(checkBtn);
+    myDiv.appendChild(deleteBtn);
+    newLi.appendChild(myDiv);
   }
 
   checkBtn.addEventListener("click", function(){
-    const parent = this.parentNode;
-    parent.remove();
+    const parent = newLi;
     completed.appendChild(parent);
     checkBtn.style.display = "none"
   });
 
   deleteBtn.addEventListener("click", function(){
-    const parent = this.parentNode;
+    const parent = newLi;
     parent.remove();
   });
 }
