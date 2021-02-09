@@ -1,25 +1,24 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
-.swiper-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: absolute;
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .swiper-slide {
-  width: 100px;
-  height: 100px;
-  background-color: #464679;
-  margin: 15px;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-image: url(https://i.pinimg.com/474x/7d/ac/e1/7dace1637cc0aa57a260010516e42365.jpg);
 }
 /*# sourceMappingURL=style.css.map */
