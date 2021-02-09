@@ -8,18 +8,24 @@
   background-color: rgb(20, 81, 105);
   width: 500px;
   padding-top: 15px;
-  margin-top: 20px;
+  margin-top: 8px;
+  padding-bottom: 15px;
   margin-bottom: 20px;
+}
+
+i{
+  color: black;
+  width: 20px;
+
+  &:checked{
+    color: black;
+  }
 }
 
 input{
   outline: none;
   width: 200px;
-}
-
-.fa-sync-alt{
-  color: #fff;
-  margin-left: 45px;
+  height: 30px;
 }
 
 label{
@@ -36,25 +42,33 @@ h1{
   font-size: 40px;
 }
 
+h2{
+  color: rgb(20, 81, 105);
+  font-weight:900;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 ul li{
   list-style-type: none;
 }
 
 .main{
   width: 500px;
-  height: 500px;
+  height: 660px;
   background-color: rgb(167, 192, 191);
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 50px;
+  margin: 40px;
+  margin-top: 20px;
   border-radius: 5px;
   box-shadow: 1px 1px 10px black;
 }
 
 .list{
   background-color: #fff;
-  height: 300px;
+  height: 470px;
   border-radius: 5px;
   border: 1px solid rgb(20, 81, 105);
   width: 450px;
@@ -62,10 +76,38 @@ ul li{
   box-shadow: 1px 1px 5px black;
 }
 
-li{
+.notCompleted li{
   display: flex;
   background-color: aliceblue;
-  justify-content: space-between;
   padding: 10px;
   margin-top: 5px;
+}
+
+.completed li{
+  display: flex;
+  background-color: rgb(224, 255, 220);
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.check{
+  visibility: hidden;
+}
+
+button{
+  background: none;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+.addMission{
+  color: rgb(20, 81, 105);
+  background-color: #fff;
+  padding: 7px;
+  margin-left: 30px;
+}
+
+.fas{
+  
 }

@@ -8,18 +8,24 @@
   background-color: #145169;
   width: 500px;
   padding-top: 15px;
-  margin-top: 20px;
+  margin-top: 8px;
+  padding-bottom: 15px;
   margin-bottom: 20px;
+}
+
+i {
+  color: black;
+  width: 20px;
+}
+
+i:checked {
+  color: black;
 }
 
 input {
   outline: none;
   width: 200px;
-}
-
-.fa-sync-alt {
-  color: #fff;
-  margin-left: 45px;
+  height: 30px;
 }
 
 label {
@@ -36,13 +42,20 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  color: #145169;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 ul li {
   list-style-type: none;
 }
 
 .main {
   width: 500px;
-  height: 500px;
+  height: 660px;
   background-color: #a7c0bf;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,7 +65,8 @@ ul li {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  margin: 50px;
+  margin: 40px;
+  margin-top: 20px;
   border-radius: 5px;
   -webkit-box-shadow: 1px 1px 10px black;
           box-shadow: 1px 1px 10px black;
@@ -60,7 +74,7 @@ ul li {
 
 .list {
   background-color: #fff;
-  height: 300px;
+  height: 470px;
   border-radius: 5px;
   border: 1px solid #145169;
   width: 450px;
@@ -69,15 +83,39 @@ ul li {
           box-shadow: 1px 1px 5px black;
 }
 
-li {
+.notCompleted li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: aliceblue;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 10px;
   margin-top: 5px;
+}
+
+.completed li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e0ffdc;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.check {
+  visibility: hidden;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.addMission {
+  color: #145169;
+  background-color: #fff;
+  padding: 7px;
+  margin-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
