@@ -25,13 +25,13 @@ function addMission(e){
     newLi.appendChild(myDiv);
   }
 
-  checkBtn.addEventListener("click", function(){
+  checkBtn.addEventListener("click", ()=>{
     const parent = newLi;
     completed.appendChild(parent);
     checkBtn.style.display = "none"
   });
 
-  deleteBtn.addEventListener("click", function(){
+  deleteBtn.addEventListener("click", ()=>{
     const parent = newLi;
     parent.remove();
   });

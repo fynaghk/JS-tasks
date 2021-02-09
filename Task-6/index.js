@@ -1,4 +1,3 @@
-
 var swiper = new Swiper('.container', {
   effect: 'coverflow',
   grabCursor: true,
